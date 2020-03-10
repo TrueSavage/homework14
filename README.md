@@ -24,8 +24,7 @@
     <br>
     <image src="/images/hwkstory07.png"></image>
     <br>
-    <image src="/homeworkStory.png"></image>
-    <br>
+    
 
   </div>
 
