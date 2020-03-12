@@ -1,4 +1,6 @@
-##Reverse Engineering User Story
+#Reverse Engineering User Story
+
+
 	▪	package.json
 As a developer I’m going to utilize NPM Node.js and when I install NPM at the Terminal I will use this command NPM Init and it will create a file with information about this application. 
  "name": "1-Passport-Example",
@@ -27,7 +29,7 @@ As a developer I will utilize the server.js to activate the Routes and open the 
 As a developer this file will have information for MYSQL Database.
 	▪	PASSPORT .js
 As a Developer I want to create a secure environment so that non-authenticated users will be blocked from accessing the site. Passport is a Middleware tool to create  authentication and verification allowing access to the user based on permissions and proper username and password utilization!
-As a User I want to be secure and safe when using this application. By signing in to my account and having it authenticated help[s to protects my account from being accessed by Bad Guys…
+As a User I want to be secure and safe when using this application. By signing in to my account and having it authenticated help to protects my account from being accessed by Bad Guys…
 Passport is authentication middleware for Node. It is designed to serve a singular purpose: authenticate requests. When writing modules, encapsulation is a virtue, so Passport delegates all other functionality to the application. This separation of concerns keeps code clean and maintainable, and makes Passport extremely easy to integrate into an application
 In modern web applications, authentication can take a variety of forms. Traditionally, users log in by providing a username and password. With the rise of social networking, single sign-on using an OAuth provider such as Facebook or Twitter has become a popular authentication method. Services that expose an API often require token-based credentials to protect access.
 	▪	middleware  Authenticated.js
