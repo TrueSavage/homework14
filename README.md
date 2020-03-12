@@ -2,28 +2,16 @@
 
 
 	▪	package.json
+	
+	
 As a developer I’m going to utilize NPM Node.js and when I install NPM at the Terminal I will use this command NPM Init and it will create a file with information about this application. 
- "name": "1-Passport-Example",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcryptjs": "2.4.3",
-    "express": "^4.17.0",
-    "express-session": "^1.16.1",
-    "mysql2": "^1.6.5",
-    "passport": "^0.4.0",
-    "passport-local": "^1.0.0",
-    "sequelize": "^5.8.6
+
+    
+    
 
 	▪	server.js
+	
+	
 As a developer I will utilize the server.js to activate the Routes and open the PORT for the WEBSITE.
 	▪	Config config.json
 As a developer this file will have information for MYSQL Database.
@@ -33,13 +21,19 @@ As a User I want to be secure and safe when using this application. By signing i
 Passport is authentication middleware for Node. It is designed to serve a singular purpose: authenticate requests. When writing modules, encapsulation is a virtue, so Passport delegates all other functionality to the application. This separation of concerns keeps code clean and maintainable, and makes Passport extremely easy to integrate into an application
 In modern web applications, authentication can take a variety of forms. Traditionally, users log in by providing a username and password. With the rise of social networking, single sign-on using an OAuth provider such as Facebook or Twitter has become a popular authentication method. Services that expose an API often require token-based credentials to protect access.
 	▪	middleware  Authenticated.js
+	
+	
 As a developer I will utilize Middleware to be a  HELPER for    html-routes.js.  which RETURNS  information that allows html-routes.js to know whether the user is logged in or not. 
 
 	▪	Models index.js
+	
+	
 As a Developer I will create a INDEX.JS file located within MODELS folder that Gathers up and creates connections to all defined databases. 
 
  
 	▪	user.js
+	
+	
 As a developer I will create a User.js file to provide definitions for MySQL database.
 // Requiring bcrypt for password hashing. Using the bcryptjs version
  as the regular bcrypt module sometimes causes errors on Windows machines
@@ -64,6 +58,8 @@ module.exports = function(sequelize, DataTypes) {
 
 
 	▪	Public
+	
+	
 login.html, members.html, signup.html
 As a Developer the HTML will create the structure of the following pages. Login Html the User will log in with their email and password combination. This uses the file login.js for functionality!!!
 As a developer after the User logs in as an existing account holder or creates a new account, the Member Page will be displayed.  HTML will provide the structure of the page and the members.js will provide the needed functionality.
@@ -73,6 +69,8 @@ As a developer I will utilize Login.js, Members.js and Signup.js each of these a
 
 
 	▪	Routes
+	
+	
 api-routes.js
 
 Routes API calls requiring access to the database.  Routes allow calls to be made allowing a user access /members.  Uses middleware Passport to make sure a user is properly logged into their account otherwise they will be redirected to the login page.
