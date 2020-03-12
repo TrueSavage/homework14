@@ -1,6 +1,4 @@
-#Homework 14 USER STORY
-
-Reverse Engineering User Story
+##Reverse Engineering User Story
 	▪	package.json
 As a developer I’m going to utilize NPM Node.js and when I install NPM at the Terminal I will use this command NPM Init and it will create a file with information about this application. 
  "name": "1-Passport-Example",
